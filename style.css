@@ -1,0 +1,78 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: #121212;
+  color: white;
+  margin: 0;
+  padding: 20px;
+}
+
+.main-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.album-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+.album-card {
+  background: #1f1f1f;
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  transition: background 0.3s;
+}
+
+.album-card:hover {
+  background: #2c2c2c;
+}
+
+.album-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.album-card h3 {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.album-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.album-header img {
+  width: 150px;
+  border-radius: 10px;
+}
+
+.album-header h2 {
+  font-size: 24px;
+}
+
+.song-list {
+  margin-top: 20px;
+}
+
+.song-item {
+  padding: 10px;
+  background: #1f1f1f;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.song-item:hover {
+  background: #2c2c2c;
+}
+
+audio {
+  width: 100%;
+  margin-top: 30px;
+}
